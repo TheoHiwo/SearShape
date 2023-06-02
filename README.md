@@ -1,4 +1,2 @@
-
-cd SearShape
-npm install
-npm run start
+# SearShape
+Mini game to experiment with BabylonJS
