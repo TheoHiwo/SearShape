@@ -35,7 +35,7 @@ function createCamera(scene: Scene): void {
   arcCamera.inertia = 0.95; // default = 0.9, continue to rotate after rotating
   arcCamera.fov = 0.8; //default = 0.8, min = 0.1, max = 2, the more the more perspective
   arcCamera.fovMode = 1; //default = 0.8, min = 0.1, max = 2, the more the more perspective
-  // arcCamera.orthoLeft = 0; //default = 0.8, min = 0.1, max = 2, the more the more perspectivef
+  // arcCamera.orthoLeft = 0; //default = 0.8, min = 0.1, max = 2, the more the more perspective
   arcCamera.wheelPrecision = 10;
 
   // arcCamera.panningSensibility = 0;

@@ -34,7 +34,7 @@ export const GUI = () => {
   textTimer.horizontalAlignment = Control.HORIZONTAL_ALIGNMENT_CENTER;
   textTimer.verticalAlignment = Control.VERTICAL_ALIGNMENT_CENTER;
   textTimer.zIndex = -1;
-  loadedGui.addControl(textTimer);
+  // loadedGui.addControl(textTimer);
 
   //Create REMAINING SHAPE COUNTER  for shape to finds
   textRemindShapeCtr = new TextBlock("remindShapeCtr");
@@ -80,7 +80,7 @@ export const GUI = () => {
     shapeLRender();
     // Particle shapes
     shapePRender();
-
+/* 
     // setInterval here = update this function every 1 second
     let t = setInterval(function () {
       // if the time is not paused (isPaused is false)
@@ -90,7 +90,7 @@ export const GUI = () => {
         textTimer.text =`${timeLeft/1000}`; // convert millisecond in second to render
       }
     }, 1000); // 1000 = 1s
-
+ */
     // play() starts the timer
     function play() {
       isPaused = false;

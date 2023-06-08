@@ -36,7 +36,7 @@ export const randShapeMLP = () => {
 // whichShapeML: type_whichShape = "ruby"; //! shapeML
 // export let whichShapeP: type_whichShape = "sphere"; //! shapeP
 
-//! shape qui se ressemple add to difficulty
+//! shape qui se resemble add to difficulty
 
 //todo difficulty variable / variablesD
 //todo let difficulty = sliderGUI;
@@ -62,8 +62,8 @@ export const updatePoint = (point: number) => {
 };
 
 // SHAPES VARIABLES
-export let numShapeP = 60;
-export let numShapeL = 11;
+export let numShapeP = 40;
+export let numShapeL = 10;
 //todo WHY the second round start at 0, then render the correct number when the first shape is find
 
 // center shape diameter
